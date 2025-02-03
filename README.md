@@ -18,4 +18,10 @@ Ensure you have the following installed before proceeding:
 - **API Gateway**: To expose the function via HTTP requests.
 
 ### Installation
-1. 
+- request
+  pip install requests -t .
+
+After the installation, file was zip and uploaded to lambda, where it was deployed and tested.
+
+### API GATEWAY CREATION
+API was created and integrated with Lambda function that was created and http.
