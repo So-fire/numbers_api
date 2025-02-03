@@ -7,6 +7,16 @@ This is a simple Number Classification API built to classify numbers into catego
 - **Number Classification**: The API accepts a number and returns whether it is Odd or Even.
 - **Serverless Architecture**: Deployed using AWS Lambda for efficient serverless operation.
 - **API Gateway Integration**: Exposed through API Gateway for easy HTTP access.
+- ***Input Validation:** Ensures the provided input is a valid integer.
+Mathematical Analysis:
+Prime Check: Determines if the number is prime.
+Perfect Number Check: Checks if the number is a perfect number.
+Armstrong Check: Determines if the number is an Armstrong (narcissistic) number.
+Digit Sum: Calculates the sum of the digits.
+Properties List: Returns a list indicating if the number is:
+An Armstrong number along with its parity (e.g., ["armstrong", "odd"] or ["armstrong", "even"])
+Or simply its parity (e.g., ["odd"] or ["even"]) if it’s not an Armstrong number.
+Fun Fact: Retrieves a fun fact about the number from the Numbers API using its math endpoint.
 
 ## Getting Started
 
